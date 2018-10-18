@@ -11,7 +11,7 @@ h1 {
   align-items: center;
 }
 
-h2 {
+a {
   font-family: sans-serif;
   color: #fff;
   line-height: 1.5;
@@ -27,16 +27,17 @@ h2 {
   list-style-type: armenian;
 }
 
-header {
-  background-color: #79756f;
-  border: 4px solid #595652;
-  height: 15em;
-}
-
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-a :hover {
-  color: #f33;
+a:hover {
+  background-color: #f33;
+}
+
+body {
+  background-color: #79756f;
+  border: 4px solid #595652;
+  height: 15em;
+  margin: .3em;
 }
