@@ -6,11 +6,11 @@ html {
 }
 
 h1 {
-  font-family: "Bevan", cursive;
   color: #fff;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  font-family: “Bevan”, “sans-serif”;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
   border: 2px solid #713837;
   border-radius: 10px;
   text-decoration: none;
-  list-style-type: armenian;
+  list-style-type: lower-latin;
 }
 
 *, *::before, *::after {
