@@ -1,0 +1,42 @@
+html {
+  background-color: #dbd6cf;
+  font-family: Bevan, cursive;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: Bevan, sans-serif;
+  color: #fff;
+  align-items: center;
+}
+
+h2 {
+  font-family: sans-serif;
+  color: #fff;
+  line-height: 1.5;
+  display: inline-block;
+  background-color: #713837;
+  padding: .6em;
+  margin-left: 3em;
+  margin-right: 3em;
+  width: auto;
+  border: 2px solid #713837;
+  border-radius: 10px;
+  text-decoration: none;
+  list-style-type: armenian;
+}
+
+header {
+  background-color: #79756f;
+  border: 4px solid #595652;
+  height: 15em;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+a :hover {
+  color: #f33;
+}
