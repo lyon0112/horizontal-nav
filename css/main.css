@@ -6,9 +6,11 @@ html {
 }
 
 h1 {
-  font-family: Bevan;
+  font-family: "Bevan", cursive;
   color: #fff;
-  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a {
@@ -18,8 +20,8 @@ a {
   display: inline-block;
   background-color: #713837;
   padding: .6em;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: .3em;
+  margin-right: .3em;
   width: auto;
   border: 2px solid #713837;
   border-radius: 10px;
@@ -38,6 +40,19 @@ a:hover {
 body {
   background-color: #79756f;
   border: 4px solid #595652;
-  height: 15em;
+  height: 10em;
   margin: 0;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  padding: .5em .75em;
 }
